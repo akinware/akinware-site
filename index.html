@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Akinware · Independent game studio</title>
-<meta name="description" content="Akinware is an independent game studio in Germany, founded by Akin Akcam. Six mobile games coming to the Google Play Store: Relic Rush, Rail Rascals, Peak Plunge, Squad Surge, Manafall and Wickbound.">
+<meta name="description" content="Akinware is an independent game studio in Germany, founded by Akin Akcam. Seven mobile games coming to the Google Play Store: Relic Rush, Rail Rascals, Peak Plunge, Squad Surge, Manafall, Wickbound and Drillheart.">
 <link rel="canonical" href="https://akinware.live/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://akinware.live/">
 <meta property="og:title" content="Akinware · Independent game studio">
-<meta property="og:description" content="Six games, built and shipped by one studio. Coming soon to the Google Play Store.">
+<meta property="og:description" content="Seven games, built and shipped by one studio. Coming soon to the Google Play Store.">
 <meta property="og:image" content="https://akinware.live/img/og-games.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23141826'/%3E%3Cpath d='M9 23 L16 8 L23 23' fill='none' stroke='%23ffffff' stroke-width='3.2' stroke-linejoin='round' stroke-linecap='round'/%3E%3Ccircle cx='16' cy='18.5' r='2.4' fill='%233a55ff'/%3E%3C/svg%3E">
@@ -27,7 +27,7 @@
 }
 </script>
 <style>
-/* One column, left-aligned type. The hero fans out three phones from the catalogue and a shelf of all six game icons;
+/* One column, left-aligned type. The hero fans out three phones from the catalogue and a shelf of all seven game icons;
    each game then gets its own card with art panel in the game's colours. No external fonts, scripts or trackers (see Datenschutz). */
 :root {
   --bg: #f5f6f9;
@@ -98,8 +98,8 @@ h1 em { font-style: normal; color: var(--cobalt); }
 
 /* Shelf: every game at a glance */
 .shelf { padding-block: 8px 64px; }
-.shelf ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 16px; }
-@media (max-width: 760px) { .shelf ul { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px 12px; } }
+.shelf ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 760px) { .shelf ul { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px 8px; } .shelf img { width: 64px; height: 64px; border-radius: 16px; } .shelf a { font-size: 13px; } }
 .shelf a { display: grid; justify-items: center; gap: 8px; text-decoration: none; text-align: center; font-size: 14.5px; font-weight: 600; }
 .shelf img { width: 76px; height: 76px; border-radius: 19px; box-shadow: 0 10px 24px -14px rgba(10, 14, 30, .55); transition: transform .15s; }
 .shelf img.px { image-rendering: pixelated; }
@@ -147,6 +147,7 @@ h2 { font-size: clamp(28px, 4vw, 40px); line-height: 1.1; letter-spacing: -.025e
 .art.ss { --a: #10275c; --b: #2d63d8; --s: #ffd23f; }
 .art.mf { --a: #1a1236; --b: #47307f; --s: #4fd1ff; }
 .art.wb { --a: #140c20; --b: #4a2a2a; --s: #ffb31a; }
+.art.dh { --a: #1b1411; --b: #6a4126; --s: #ff4f8a; }
 
 /* Also from the studio */
 .also-label { margin: 56px 0 0; }
@@ -221,8 +222,8 @@ footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
   <div class="wrap hero">
     <div>
       <p class="kicker">// independent game studio · Germany</p>
-      <h1>Six games, <em>built and shipped</em> by one studio.</h1>
-      <p class="lede">Akinware makes mobile games that are easy to pick up and hard to put down: two endless runners, a downhill ski run, a squad shooter, a mana-pouring battler and a lantern-lit dungeon crawl. All six are coming soon to the Google Play Store.</p>
+      <h1>Seven games, <em>built and shipped</em> by one studio.</h1>
+      <p class="lede">Akinware makes mobile games that are easy to pick up and hard to put down: two endless runners, a downhill ski run, a squad shooter, a mana-pouring battler, a lantern-lit dungeon crawl and a mining adventure. All seven are coming soon to the Google Play Store.</p>
       <div class="ctas">
         <a class="btn gold" href="#games">See the games ↓</a>
         <a class="btn" href="https://relicrush.akinware.live" target="_blank" rel="noopener">Play Relic Rush in your browser</a>
@@ -243,13 +244,14 @@ footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
       <li><a href="#squad-surge"><img src="img/ss-icon.png" width="160" height="160" alt="">Squad Surge<small>Gate shooter</small></a></li>
       <li><a href="#manafall"><img src="img/mf-icon.png" width="160" height="160" alt="">Manafall<small>Pour &amp; battle</small></a></li>
       <li><a href="#wickbound"><img class="px" src="img/wb-icon.png" width="160" height="160" alt="">Wickbound<small>Dungeon crawler</small></a></li>
+      <li><a href="#drillheart"><img class="px" src="img/dh-icon.png" width="160" height="160" alt="">Drillheart<small>Mining adventure</small></a></li>
     </ul>
   </nav>
 
   <section class="block" id="games">
     <div class="wrap">
       <p class="label">01 · Games</p>
-      <h2>Six games, coming soon to Google Play</h2>
+      <h2>Seven games, coming soon to Google Play</h2>
       <p class="intro">Every game here is finished, tested and getting ready for the Google Play Store. Each one has its own look and its own reason to play one more round.</p>
 
       <article class="game" id="relic-rush">
@@ -393,6 +395,29 @@ footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
         </div>
       </article>
 
+      <article class="game" id="drillheart">
+        <div class="game-copy">
+          <span class="status"><span class="soon"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.8v12.4c0 .5.5.8.9.6L14 9c.4-.2.4-.8 0-1L3.9 1.2c-.4-.2-.9.1-.9.6z" fill="currentColor"/></svg>Google Play Store · coming soon</span></span>
+          <div class="ptitle">
+            <img class="px" src="img/dh-icon.png" width="160" height="160" alt="Drillheart app icon">
+            <h3>Drillheart<small>Dig deep. Get rich. Make it home.</small></h3>
+          </div>
+          <span class="genre">Pixel-art mining adventure</span>
+          <p>Pilot a little drill pod with a glowing heart down through the earth below Hollow Creek. Every trip is a bet: fill your hold with ore, then fly back before the fuel runs out. Sell, upgrade and dive deeper.</p>
+          <ul class="ticks">
+            <li>Seven strata to dig through, from Topsoil and Crystal Caves to Magma Deep and the Heart Core</li>
+            <li>Thirteen ores, from coal and copper to diamonds, platinum and heartshards</li>
+            <li>Upgrade the drill, engine, fuel tank, cargo bay, hull, cooling and radar</li>
+            <li>Rebuild old waystations, find the founders' journal and reach the Heartstone 1200 m down</li>
+          </ul>
+        </div>
+        <div class="art dh">
+          <img src="img/dh-1.webp" width="540" height="960" loading="lazy" alt="Drillheart: drilling for copper under Hollow Creek">
+          <img src="img/dh-2.webp" width="540" height="960" loading="lazy" alt="Drillheart: gems in the Crystal Caves">
+          <img src="img/dh-3.webp" width="540" height="960" loading="lazy" alt="Drillheart: the Heartstone chamber 1200 m down">
+        </div>
+      </article>
+
       <p class="label also-label">Also from Akinware</p>
       <article class="game" id="job-hunter">
         <div class="game-copy">
@@ -424,7 +449,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
       <div class="road">
         <div class="step">
           <span class="when">Now</span>
-          <div><h3>Six games on the Google Play Store</h3><p>Relic Rush, Rail Rascals, Peak Plunge, Squad Surge, Manafall and Wickbound are being prepared for release on Google Play.</p></div>
+          <div><h3>Seven games on the Google Play Store</h3><p>Relic Rush, Rail Rascals, Peak Plunge, Squad Surge, Manafall, Wickbound and Drillheart are being prepared for release on Google Play.</p></div>
           <span class="pill build">In progress</span>
         </div>
         <div class="step">
@@ -453,7 +478,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
           <dt>Founder</dt><dd><a href="https://www.linkedin.com/in/akinakcam/" target="_blank" rel="noopener">Akin Akcam</a></dd>
           <dt>Founded</dt><dd>2026</dd>
           <dt>Based in</dt><dd>Hildburghausen, Germany</dd>
-          <dt>Games</dt><dd><a href="#relic-rush">Relic Rush</a>, <a href="#rail-rascals">Rail Rascals</a>, <a href="#peak-plunge">Peak Plunge</a>, <a href="#squad-surge">Squad Surge</a>, <a href="#manafall">Manafall</a>, <a href="#wickbound">Wickbound</a></dd>
+          <dt>Games</dt><dd><a href="#relic-rush">Relic Rush</a>, <a href="#rail-rascals">Rail Rascals</a>, <a href="#peak-plunge">Peak Plunge</a>, <a href="#squad-surge">Squad Surge</a>, <a href="#manafall">Manafall</a>, <a href="#wickbound">Wickbound</a>, <a href="#drillheart">Drillheart</a></dd>
           <dt>Also</dt><dd><a href="#job-hunter">Job Hunter</a></dd>
           <dt>Code</dt><dd><a href="https://github.com/akinware" target="_blank" rel="noopener">github.com/akinware</a></dd>
         </dl>
