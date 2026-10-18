@@ -1,0 +1,67 @@
+{
+ "drill-miner": {
+  "title": "Drill Miner: Dig Deep",
+  "category": "Arcade",
+  "tags": [
+   "Arcade",
+   "Casual",
+   "Adventure",
+   "Simulation",
+   "Strategy"
+  ],
+  "short": "Dig deep, fill your hold with ore and make it home before the fuel runs out!",
+  "long": "Pilot a little drill pod with a glowing heart down through a living cross-section of the earth.\n\n⛏️ DIG ANYWHERE: drill down and sideways through dirt, clay, stone, crystal caves, magma, ancient ruins and the Heart Core.\n💎 GET RICH: coal, copper and silver near the top; emeralds, rubies, diamonds, platinum and heartshards far below.\n⛽ MAKE IT HOME: every trip is a bet. The fuel gauge shows exactly what it takes to fly back. One more ore, or turn back now?\n🔧 UPGRADE: drill, engine, fuel tank, cargo bay, hull, cooling and radar. Every upgrade sends you deeper.\n🏕️ WAYSTATIONS: rebuild the founders' old docks at 100, 250, 500 and 1000 m and start your dives deep underground.\n📜 A SMALL MYSTERY: find the founders' journal pages in the ruins and learn why Hollow Creek never freezes.\n❤️ THE HEARTSTONE waits 1200 m down. And below it, the endless Abyss.\n\nNo timers, no energy. Your tunnels stay where you dug them. Plays offline."
+ },
+ "lantern-heroes": {
+  "title": "Lantern Heroes: Idle Dungeon",
+  "category": "Role Playing",
+  "tags": [
+   "Role Playing",
+   "Casual",
+   "Action",
+   "Adventure",
+   "Strategy"
+  ],
+  "short": "Lead pixel heroes into the dark. Keep the lantern lit and beat the bosses!",
+  "long": "When the great Lantern of Emberfall goes out, Wick, the last living flame, leads a band of misfit heroes into the Underdeep.\n\n🏮 YOUR PARTY FIGHTS ON ITS OWN: you unleash their abilities at the right moment, choose which door to take and keep Wick's oil burning before the dark closes in.\n⚔️ SIX HEROES: Knight, Ranger, Cleric, Pyromancer, Rogue and Bard, each with a signature ability: Cleave, Volley, Sanctuary, Firestorm, Shadowstep and Anthem.\n👑 FIVE DUNGEONS, FIVE BOSSES: 20 chambers per delve, each boss with its own telegraphed attacks.\n🚪 PICK YOUR PATH: shrines, oil springs, treasure and elite brutes behind every fork.\n🌳 GROW THE LANTERN TREE: spend your gold at camp on 32 upgrades for more light and more power.\n💍 COLLECT 17 RELICS: permanent bonuses that stack up over time.\n\nShort runs, one hand, portrait screen. Plays offline."
+ },
+ "potion-heroes": {
+  "title": "Potion Heroes: Pour & Fight",
+  "category": "Casual",
+  "tags": [
+   "Casual",
+   "Action",
+   "Arcade",
+   "Role Playing",
+   "Strategy"
+  ],
+  "short": "Pour mana through magic gates, multiply it and power up your pixel hero!",
+  "long": "Your hero fights wave after wave on their own, and every fallen enemy drops mana orbs. Between waves you pour the orbs through rune gates that multiply them, then spend the mana on new skills.\n\n🧪 POUR & MULTIPLY: drag the flask, aim the stream and watch ×2, ×3 and ×5 gates turn a trickle into a flood.\n🔥 ELEMENT GATES: fire, ice and storm gates power up your hero. Watch out for the red curse gates!\n⚔️ FIVE HEROES, each with a signature skill: Arrow Rain, Overclock, Meteor, Bulwark and Shadow Step.\n👹 SIX REALMS of ten waves each, with a boss waiting at the end.\n🃏 22 SKILL CARDS to combine into your own build every run.\n🎒 LOOT & MERGE: collect gear and merge three into one stronger item.\n\nPixel art, quick runs, plays offline."
+ },
+ "rail-runner": {
+  "title": "Rail Runner: Train Dash",
+  "category": "Arcade",
+  "tags": [
+   "Arcade",
+   "Action",
+   "Casual",
+   "Racing",
+   "Runner"
+  ],
+  "short": "Dodge trains, grab coins and outrun the yard keeper in this 3D endless runner!",
+  "long": "Dash through a graffiti-covered rail yard with the yard keeper on your tail. Switch tracks, jump barriers, roll under signs and run across the roofs of moving trains.\n\n🚆 SWIPE TO RUN: left and right to switch tracks, up to jump, down to roll.\n🏙️ FOUR DISTRICTS that change as you go, from Downtown Yard to Neon Night.\n⚡ RUSH METER: run clean to fill it, then smash straight through everything in your way.\n🚀 POWER-UPS: jetpacks, coin magnets, spring shoes and 2× score, all upgradable.\n🛹 8 RUNNERS AND 5 HOVERBOARDS to unlock. A hoverboard saves you from one crash.\n📅 DAILY MISSIONS, a word hunt and mystery boxes raise your score multiplier.\n\nOne-thumb controls, plays offline."
+ },
+ "ski-rush": {
+  "title": "Ski Rush: Downhill Run",
+  "category": "Sports",
+  "tags": [
+   "Sports",
+   "Arcade",
+   "Casual",
+   "Action",
+   "Racing"
+  ],
+  "short": "Carve down the mountain, flip off ramps and outrun the avalanche!",
+  "long": "Drag to carve down the mountain between pines and boulders. Thread the slalom gates, flip off ramps and keep your speed up, because the avalanche never stops.\n\n⛷️ ONE-FINGER CONTROL: drag left and right to carve between trees, rocks and gates.\n🏔️ FOUR LANDSCAPES on the way down: Pine Forest, Alpine Village, Frozen Lake and Aurora Night.\n🤸 FLIPS AND COMBOS: flip off ramps and chain slalom gates to multiply your score.\n🌨️ OUTRUN THE AVALANCHE: slow down and it swallows you.\n🚀 POWER-UPS: rocket skis, coin magnet, helmet shield and double coins.\n🏂 8 SKIERS AND SNOWBOARDERS to unlock.\n\nEndless runs, calm minimalist style, plays offline."
+ }
+}
