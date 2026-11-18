@@ -156,19 +156,10 @@ h2 { font-size: clamp(28px, 4vw, 40px); line-height: 1.1; letter-spacing: -.025e
 .also-label { margin: 56px 0 0; }
 .also-label + .game { margin-top: 14px; }
 .game .live-status { color: var(--ok); }
-.jh-art { background: #17211d; color: #f2f4f1; padding: 28px; display: grid; align-content: center; gap: 12px; font-family: var(--mono); font-size: 13px; position: relative; min-height: 300px; overflow: hidden; }
-.jh-art::after { content: ""; position: absolute; inset: auto 0 0 0; height: 8px; background: repeating-linear-gradient(-45deg, #e2560f 0 12px, #17211d 12px 24px); }
-.jh-word { font-family: var(--font); font-weight: 900; font-size: clamp(30px, 4.5vw, 44px); letter-spacing: -.01em; line-height: .95; text-transform: uppercase; }
-.jh-word span { color: #e2560f; }
-.jh-q { display: flex; gap: 8px; align-items: center; padding: 9px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,.14); color: rgba(242,244,241,.75); }
-.jh-q i { font-style: normal; width: 7px; height: 14px; background: #e2560f; animation: caret 1s steps(1) infinite; }
-.jh-row { position: relative; display: flex; justify-content: space-between; gap: 12px; padding: 9px 12px; border-radius: 6px; background: rgba(255,255,255,.06); overflow: hidden; }
-.jh-row b { font-weight: 500; color: #6fcf94; white-space: nowrap; position: relative; }
-.jh-row span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative; }
-.jh-row::before { content: ""; position: absolute; inset: 0 auto 0 0; width: var(--m); background: linear-gradient(90deg, rgba(111,207,148,.05), rgba(111,207,148,.16)); transform-origin: left; animation: fill 4.5s ease-out infinite; animation-delay: var(--d); }
-@keyframes fill { 0% { transform: scaleX(0); } 22%, 88% { transform: scaleX(1); } 100% { transform: scaleX(1); opacity: 0; } }
-@keyframes caret { 50% { opacity: 0; } }
-@media (prefers-reduced-motion: reduce) { .jh-row::before, .jh-q i { animation: none; } }
+.art.pm { --a: #0c2226; --b: #1f6a66; --s: #7ee0c2; display: grid; grid-template-columns: 1fr 1fr; align-content: center; }
+.art.pm img { width: 100%; max-width: none; aspect-ratio: 16 / 9; border-radius: 12px; }
+.art.pm img:nth-child(1) { grid-column: 1 / -1; }
+.art.pm img:nth-child(2) { transform: none; }
 
 /* Roadmap */
 .road { margin-top: 36px; display: grid; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); overflow: hidden; }
@@ -446,24 +437,23 @@ footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
       </article>
 
       <p class="label also-label">Also from Akinji Games</p>
-      <article class="game" id="job-hunter">
+      <article class="game" id="primordium">
         <div class="game-copy">
-          <span class="status"><span class="live">Live · free to use</span></span>
-          <h3>Job Hunter<small>Find jobs without ten open tabs.</small></h3>
-          <p>One search across several job boards. Drop in your CV and every listing gets a match score, with the skills you have and the ones the job asks for.</p>
+          <span class="status"><span class="live">In development · free demo</span></span>
+          <h3>Primordium<small>Evolve your own creature from a single cell.</small></h3>
+          <span class="genre">Evolution game · Windows, macOS and browser</span>
+          <p>Start as a single cell in a tide pool. Grow into a swimmer on a living reef. Walk ashore as a creature you built yourself. Lead your species into its first tribe.</p>
           <ul class="ticks">
-            <li>Searches several job boards at once and removes duplicates</li>
-            <li>CV matching runs on your own device. Your CV is never uploaded</li>
-            <li>Germany and remote jobs today, more countries next</li>
+            <li>The free demo is the whole first stage, about half an hour: swim, graze or hunt, find new parts and redesign your cell</li>
+            <li>In the full game you design your creature in a 3D editor and found a tribe</li>
+            <li>A pre-alpha build that is still changing, with a Kickstarter on the way</li>
           </ul>
-          <div class="links"><a class="btn primary" href="https://jobhunter.akinware.live" target="_blank" rel="noopener">Open Job Hunter →</a></div>
+          <div class="links"><a class="btn primary" href="https://akinjigames.itch.io/primordium" target="_blank" rel="noopener">Play the free demo on itch.io →</a></div>
         </div>
-        <div class="jh-art" aria-hidden="true">
-          <div class="jh-word">Job<span>/</span>Hunter</div>
-          <div class="jh-q">⌕ designer, Germany<i></i></div>
-          <div class="jh-row" style="--m:82%;--d:0s"><span>UX Designer · Berlin</span><b>82% match</b></div>
-          <div class="jh-row" style="--m:74%;--d:.25s"><span>Product Designer · Remote</span><b>74% match</b></div>
-          <div class="jh-row" style="--m:61%;--d:.5s"><span>Frontend Developer · Hamburg</span><b>61% match</b></div>
+        <div class="art pm">
+          <img src="img/pm-1.webp" width="1120" height="630" loading="lazy" alt="Primordium: cells grazing and hunting in a tide pool">
+          <img src="img/pm-2.webp" width="720" height="405" loading="lazy" alt="Primordium: painting a creature in the creature editor">
+          <img src="img/pm-3.webp" width="720" height="405" loading="lazy" alt="Primordium: a tribe village seen from above">
         </div>
       </article>
     </div>
@@ -506,7 +496,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
           <dt>Founded</dt><dd>2026</dd>
           <dt>Based in</dt><dd>Karşıyaka, Türkiye</dd>
           <dt>Games</dt><dd><a href="#relic-rush">Relic Rush</a>, <a href="#rail-runner">Rail Runner</a>, <a href="#ski-rush">Ski Rush</a>, <a href="#gate-army">Gate Army</a>, <a href="#potion-heroes">Potion Heroes</a>, <a href="#lantern-heroes">Lantern Heroes</a>, <a href="#drill-miner">Drill Miner</a>, <a href="#firefly-sort">Firefly Sort</a></dd>
-          <dt>Also</dt><dd><a href="#job-hunter">Job Hunter</a></dd>
+          <dt>Also</dt><dd><a href="#primordium">Primordium</a></dd>
           <dt>Code</dt><dd><a href="https://github.com/akinware" target="_blank" rel="noopener">github.com/akinware</a></dd>
         </dl>
       </div>
